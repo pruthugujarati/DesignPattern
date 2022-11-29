@@ -1,0 +1,52 @@
+1.) What is Design Pattern?
+--> A design patterns are well-proved solution for solving the specific problem/task.
+   It provides a general reusable solution for the common problems 
+   that occur in software design. The pattern typically shows relationships and 
+   interactions between classes or objects. The idea is to speed up the development
+   process by providing well-tested, proven development/design paradigms.
+
+2.)what are the main type of design patterns?
+-->Basically, Design patterns are categorized into 2 parts:
+  1. Core Java Design Patterns
+  2. JEE Design Patterns
+
+--> Core Java Design Patterns :
+    1. Creational Design Pattern
+       i. Factory Pattern
+       ii. Abstract Factory Pattern
+       iii. Singleton Pattern
+       iv. Prototype Pattern
+       v. Builder Pattern.
+   
+    2. Structural Design Pattern
+	i. Adapter Pattern
+	ii. Bridge Pattern
+	iii. Composite Pattern
+	iv. Decorator Pattern
+	v. Facade Pattern
+	vi. Flyweight Pattern
+	vii. Proxy Pattern
+
+    3. Behavioral Design Pattern
+	i. Chain Of Responsibility Pattern
+	ii. Command Pattern
+	iii. Interpreter Pattern
+	iv. Iterator Pattern
+	v. Mediator Pattern
+	vi. Memento Pattern
+	vii. Observer Pattern
+	viii. State Pattern
+	ix. Strategy Pattern
+	x. Template Pattern
+	xi. Visitor Pattern
+
+3.)What is Factory Pattern?
+-->A Factory Pattern or Factory Method Pattern says that just define an interface or abstract class for creating an object but let the
+   subclasses decide which class to instantiate. In other words, subclasses are responsible to create the instance of the class.
+   The Factory Method Pattern is also known as Virtual Constructor.
+
+4.)What is Abstract Factory Pattern?
+-->Abstract Factory Pattern says that just define an interface or abstract class for creating families of related (or dependent) objects but 
+   without specifying their concrete sub-classes.That means Abstract Factory lets a class returns a factory of classes. So, this is the reason
+   that Abstract Factory Pattern is one level higher than the Factory Pattern.
+   An Abstract Factory Pattern is also known as Kit.
